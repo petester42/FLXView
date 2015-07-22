@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0BF54B3C6F90B95E44AF05D5E15070E4C0FB01FD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0BF54B3C6F90B95E44AF05D5E15070E4C0FB01FD" : 0,
+    "EF4E0D78BD66D72DA5A8D5BC350B60E01C5A9EF4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1E4F1ACA-804C-4713-B4FA-FF93938C07C3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0BF54B3C6F90B95E44AF05D5E15070E4C0FB01FD" : "FLXView\/",
+    "EF4E0D78BD66D72DA5A8D5BC350B60E01C5A9EF4" : "FLXView\/Carthage\/Checkouts\/css-layout\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FLXView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FLXView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/petester42\/FLXView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0BF54B3C6F90B95E44AF05D5E15070E4C0FB01FD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/facebook\/css-layout.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EF4E0D78BD66D72DA5A8D5BC350B60E01C5A9EF4"
+    }
+  ]
+}

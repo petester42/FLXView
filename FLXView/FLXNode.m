@@ -25,6 +25,10 @@ static css_dim_t FLXMeasure(void *contex, float maxWidth);
 
 #pragma mark - Lifecycle
 
+- (instancetype)init {
+    return [self initWithView:[UIView new]];
+}
+
 - (instancetype)initWithView:(UIView *)view {
     self = [super init];
     if (self == nil) return nil;

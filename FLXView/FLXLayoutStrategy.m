@@ -29,12 +29,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - Lifecycle
 
+- (instancetype)init {
+    return [self initWithSize:CGSizeZero];
+}
+
 - (instancetype)initWithSize:(CGSize)size {
     self = [super init];
     if (self == nil) return nil;
-
+    
     _size = size;
-
+    
     return self;
 }
 
@@ -58,12 +62,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - Lifecycle
 
+- (instancetype)init {
+    return [self initWithBlock:^CGSize(CGSize size) {
+        return CGSizeZero;
+    }];
+}
+
 - (instancetype)initWithBlock:(CGSize (^)(CGSize))block {
     self = [super init];
     if (self == nil) return nil;
-
+    
     _block = [block copy];
-
+    
     return self;
 }
 
